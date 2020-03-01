@@ -22,22 +22,11 @@ If everything worked properly, you should now have a container running, which:
 To test this, you can either:
 
 Run make test_api
-```
+
 Write your own POST request (e.g. using Postman or curl), here is an example response:
-{
-    "input": {
-        "data": [
-            "this workshop is fun",
-            "this workshop is boring"
-        ]
-    },
-    "pred": [
-        [
-            0.9856576323509216      # closer to 1 => positive
-        ],
-        [
-            0.19903425872325897     # closer to 0 => negative
-        ]
-    ]
-}
-```
+![alt text](https://github.com/siddhant07/CaseStudy2/blob/master/Images/Postman_res.png)
+
+This is how our docker structure looks like:
+![alt text](https://github.com/siddhant07/CaseStudy2/blob/master/Images/DockerStructure.png)
+
+
