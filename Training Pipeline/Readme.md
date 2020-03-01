@@ -1,7 +1,7 @@
 
 ### Training Pipeline 
 
-In this pipeline we train a ML model using tensorflows pre-trained model, we train this model on the labeled dataset that we generated in the Annotation Pipeline using Edgar earning calls.
+In this pipeline we train a ML model using tensorflow hub's pre-trained model (universal sentence encoder), we train this model on the labeled dataset that we generated in the Annotation Pipeline using Edgar earning calls.
 
 #### Run Instructions 
 
