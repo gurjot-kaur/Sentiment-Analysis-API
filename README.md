@@ -83,18 +83,18 @@ Open a Terminal window and type docker run hello-world to make sure Docker is in
 
 `` Hello from Docker!``  
 ``This message shows that your installation appears to be working correctly.``
+
 Finally, in the Terminal window excecute docker pull tensorflow/tensorflow:2.1.0-py3-jupyter.
 
 ### Install Anaconda
 
 Follow the instructions for your operating system.
 
-For macOS, follow this link.
-For Windows, follow this link.
-For Linux, follow this link.
+For macOS, follow this [link](https://docs.anaconda.com/anaconda/install/mac-os/)
+For Windows, follow this [link](https://docs.anaconda.com/anaconda/install/windows/)
 
 
 ### Install Sublime
 
-Follow the instructions for your operating system.
+Follow the [instructions](https://www.sublimetext.com/3) for your operating system.
 If you already have a prefered text editor, skip this step.
