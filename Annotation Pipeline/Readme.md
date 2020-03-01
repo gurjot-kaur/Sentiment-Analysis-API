@@ -2,6 +2,11 @@
 
 This Pipeline scrapes Earning calls from SeekingAlpha, Pre-processes the said calls and uses Google NLP API to generate a sentiment score for every sentence. 
 
+## Pre requisite
+
+Set up your google account to access the NLP API, and configure following the provided [link](https://cloud.google.com/natural-language/docs/sentiment-tutorial)
+
+
 ## Run Instructions 
 
 ```
