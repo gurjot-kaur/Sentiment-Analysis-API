@@ -98,3 +98,5 @@ For Windows, follow this [link](https://docs.anaconda.com/anaconda/install/windo
 
 Follow the [instructions](https://www.sublimetext.com/3) for your operating system.
 If you already have a prefered text editor, skip this step.
+
+
