@@ -13,9 +13,12 @@ We then dockerize the said API.
 
 If everything worked properly, you should now have a container running, which:
 
-Spins up a Flask server that accepts POST requests at http://0.0.0.0:5000/model/analyse
-Runs a Keras sentiment classifier on the "data" field of the request (which should be a list of text strings: e.g. '{"data": ["this is the best!", "this is the worst!"]}')
-Returns a response with the model's prediction (1 = positive sentiment, 0 = negative sentiment)
+1. Spins up a Flask server that accepts POST requests at http://0.0.0.0:5000/model/analyse
+
+2. Runs a Keras sentiment classifier on the "data" field of the request (which should be a list of text strings: e.g. '{"data": ["this is the best!", "this is the worst!"]}')
+
+3. Returns a response with the model's prediction (1 = positive sentiment, 0 = negative sentiment)
+
 To test this, you can either:
 
 Run make test_api
