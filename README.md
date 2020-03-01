@@ -100,3 +100,15 @@ Follow the [instructions](https://www.sublimetext.com/3) for your operating syst
 If you already have a prefered text editor, skip this step.
 
 
+## Run Sequence
+
+1. Run requirements.txt
+```
+pip install -U -r requirements.txt
+```
+This command will instal all the required packages and update any older packages.
+
+2. Now that we have our enviornment set up, we will create an S3 bucket.
+
+Follow this [link](https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html) and create two buckets, an input bucket and a outbucket and configure them in the pipeline files.
+
