@@ -14,9 +14,11 @@ You will need a valid debit or credit card. You will not be charged, it is only 
 ### Install AWS Command Line Interface (AWSCLI)
 
 Install the AWS CLI Version 1 for your operating system. Please follow the appropriate link below based on your operating system.
-Linux
-macOS
-Windows
+
+[macOS](https://docs.aws.amazon.com/cli/latest/userguide/install-macos.html)
+
+[Windows](https://docs.aws.amazon.com/cli/latest/userguide/install-windows.html#install-msi-on-windows)
+
 * Please make sure you add the AWS CLI version 1 executable to your command line Path.
 Verify that AWS CLI is installed correctly by running aws --version.
 
