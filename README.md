@@ -112,3 +112,12 @@ This command will instal all the required packages and update any older packages
 
 Follow this [link](https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html) and create two buckets, an input bucket and a outbucket and configure them in the pipeline files.
 
+3. Now, run the pipelines in the following order, you find the instructions of running each pipeline in their respective folders:
+a. Run the Annotation Pipeline `testp.py` to get the labelled dataset
+b. Run the Training Pipeline `training_pipeline.py` to get the trained model
+c. Start the micro service by running the docker `MicroSerivce` 
+d. Run the Inference Pipeline `inference_pipeline.py` to get the final output.
+
+4. At the end you should get a csv file with sentence and a sentiment, which will look like this: 
+
+
