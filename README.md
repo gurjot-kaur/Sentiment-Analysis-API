@@ -66,17 +66,19 @@ Excecute the files "first.bat" and "second.bat" in order, as administrator.
 Restart your computer.
 
 Excecute the following commands in terminal, as administrator.
-
+```
  REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /f /v EditionID /t REG_SZ /d "Professional"
  REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /f /v ProductName /t REG_SZ /d "Windows 10 Pro"
+```
 Follow this link to install Docker.
-
 Restart your computer, do not log out.
 
 Excecute the following commands in terminal, as administrator.
-
+```
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /t REG_SZ /d "Core"
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v ProductName /t REG_SZ /d "Windows 10 Home"
+```
+
 Open a Terminal window and type docker run hello-world to make sure Docker is installed properly . It should appear the following message:
 
 `` Hello from Docker!``  
