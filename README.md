@@ -70,7 +70,7 @@ Excecute the following commands in terminal, as administrator.
  REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /f /v EditionID /t REG_SZ /d "Professional"
  REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /f /v ProductName /t REG_SZ /d "Windows 10 Pro"
 ```
-Follow this link to install Docker.
+Follow this [link](https://docs.docker.com/docker-for-windows/install/) to install Docker.
 Restart your computer, do not log out.
 
 Excecute the following commands in terminal, as administrator.
