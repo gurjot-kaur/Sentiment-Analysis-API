@@ -121,3 +121,5 @@ d. Run the Inference Pipeline `inference_pipeline.py` to get the final output.
 4. At the end you should get a csv file with sentence and a sentiment, which will look like this: 
 
 ![alt text](https://github.com/siddhant07/CaseStudy2/blob/master/Images/Final_outout.png)
+
+5. Celebrate with drinks, but only soft drinks, remember kids, alcohol kills brain cells.
