@@ -52,3 +52,47 @@ Follow the instructions of your operating system:
 [macOS](https://learning.postman.com/docs/postman/launching-postman/installation-and-updates/#installing-postman-on-mac)
 
 [Windows](https://learning.postman.com/docs/postman/launching-postman/installation-and-updates/#installing-postman-on-windows)
+
+### Install Docker
+
+Install Docker Desktop. Use one of the links below to download the proper Docker application depending on your operating system. Create a DockerHub account if asked.
+
+For macOS, follow this [link](https://docs.docker.com/docker-for-mac/install/).
+
+For Windows 10 64-bit Home, follow this [link](https://docs.docker.com/docker-for-windows/install/)
+
+Excecute the files "first.bat" and "second.bat" in order, as administrator.
+
+Restart your computer.
+
+Excecute the following commands in terminal, as administrator.
+
+ REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /f /v EditionID /t REG_SZ /d "Professional"
+ REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /f /v ProductName /t REG_SZ /d "Windows 10 Pro"
+Follow this link to install Docker.
+
+Restart your computer, do not log out.
+
+Excecute the following commands in terminal, as administrator.
+
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /t REG_SZ /d "Core"
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v ProductName /t REG_SZ /d "Windows 10 Home"
+Open a Terminal window and type docker run hello-world to make sure Docker is installed properly . It should appear the following message:
+
+`` Hello from Docker!``  
+``This message shows that your installation appears to be working correctly.``
+Finally, in the Terminal window excecute docker pull tensorflow/tensorflow:2.1.0-py3-jupyter.
+
+### Install Anaconda
+
+Follow the instructions for your operating system.
+
+For macOS, follow this link.
+For Windows, follow this link.
+For Linux, follow this link.
+
+
+### Install Sublime
+
+Follow the instructions for your operating system.
+If you already have a prefered text editor, skip this step.
