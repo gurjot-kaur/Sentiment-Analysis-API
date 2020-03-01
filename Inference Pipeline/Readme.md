@@ -9,3 +9,6 @@ In this piepline we combine functionalities of the previous two pipelines and us
 python inference_pipeline.py --environment=conda run
 ```
 
+The model of our inference pipeline looks like this:
+
+![alt text](https://github.com/siddhant07/CaseStudy2/blob/master/Images/P3_model.png)
