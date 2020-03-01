@@ -24,9 +24,11 @@ To test this, you can either:
 Run make test_api
 
 Write your own POST request (e.g. using Postman or curl), here is an example response:
+
 ![alt text](https://github.com/siddhant07/CaseStudy2/blob/master/Images/Postman_res.png)
 
 This is how our docker structure looks like:
+
 ![alt text](https://github.com/siddhant07/CaseStudy2/blob/master/Images/DockerStructure.png)
 
 
