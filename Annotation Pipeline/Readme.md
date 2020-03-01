@@ -14,3 +14,7 @@ This pipeline will write it's result to an output bucket on AWS S3 which you wil
 The pipeline model is shown below:
 
 ![alt text](https://github.com/siddhant07/CaseStudy2/blob/master/Images/P1_model.png)
+
+This is how our pipeline output looks like in a notebook
+
+![alt text](https://github.com/siddhant07/CaseStudy2/blob/master/Images/P1_output.png)
