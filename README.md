@@ -106,7 +106,7 @@ If you already have a prefered text editor, skip this step.
 
 ## Run Sequence
 
-1. Run requirements.txt\
+1. Run requirements.txt
 ```
 pip install -U -r requirements.txt
 ```
