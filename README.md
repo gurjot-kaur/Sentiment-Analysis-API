@@ -39,14 +39,14 @@ Now, you can configure your AWS CLI with the credentials you just created and do
 
 1. In your Terminal, run `aws configure`.
 
-i. Enter your AWS Access Key ID from the file you downloaded.\
-ii. Enter the AWS Secret Access Key from the file.\
-iii. For Default region name, enter us-east-1.\
-iv. For Default output format, enter json.
+   i. Enter your AWS Access Key ID from the file you downloaded.\
+   ii. Enter the AWS Secret Access Key from the file.\
+   iii. For Default region name, enter `us-east-1`.\
+   iv. For Default output format, enter `json`.
 
-2. Run aws s3 ls in your Terminal. If your AWS CLI is configured correctly, you should see nothing (because you do not have any existing AWS S3 buckets) or if you have created AWS S3 buckets before, they will be listed in your Terminal window.
+2. Run `aws s3 ls` in your Terminal. If your AWS CLI is configured correctly, you should see nothing (because you do not have any existing AWS S3 buckets) or if you have created AWS S3 buckets before, they will be listed in your Terminal window.
 
-If you get an error, then please try to configure your AWS CLI again.
+** If you get an error, then please try to configure your AWS CLI again.
 
 ### Install Postman
 
