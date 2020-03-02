@@ -27,16 +27,22 @@ Configuring the AWS CLI
 
 You need to retrieve AWS credentials that allow your AWS CLI to access AWS resources.
 
-Sign into the AWS console. This simply requires that you sign in with the email and password you used to create your account. If you already have an AWS account, be sure to log in as the root user.
+Sign into the AWS console.
+This simply requires that you sign in with the email and password you used to create your account. If you already have an AWS account, be sure to log in as the root user.
+
 Choose your account name in the navigation bar at the top right, and then choose My Security Credentials.
+
 Expand the Access keys (access key ID and secret access key) section.
+
 Press Create New Access Key.
+
 Press Download Key File to download a CSV file that contains your new AccessKeyId and SecretKey. Keep this file somewhere where you can find it easily.
+
 Now, you can configure your AWS CLI with the credentials you just created and downloaded.
 
 In your Terminal, run aws configure.
 
-i. Enter your AWS Access Key ID from the file you downloaded.
+i. Enter your AWS Access Key ID from the file you downloaded.\
 ii. Enter the AWS Secret Access Key from the file.
 iii. For Default region name, enter us-east-1.
 iv. For Default output format, enter json.
