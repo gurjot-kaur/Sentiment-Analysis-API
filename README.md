@@ -29,11 +29,11 @@ Verify that AWS CLI is installed correctly by running `aws --version`.
 You need to retrieve AWS credentials that allow your AWS CLI to access AWS resources.
 
 1. Sign into the AWS console. This simply requires that you sign in with the email and password you used to create your account.
-If you already have an AWS account, be sure to log in as the root user.\
-2. Choose your account name in the navigation bar at the top right, and then choose My Security Credentials.\
-3. Expand the Access keys (access key ID and secret access key) section.\
-4. Press Create New Access Key.\
-5. Press Download Key File to download a CSV file that contains your new AccessKeyId and SecretKey. Keep this file somewhere where you can find it easily.\
+If you already have an AWS account, be sure to log in as the root user.
+2. Choose your account name in the navigation bar at the top right, and then choose My Security Credentials.
+3. Expand the Access keys (access key ID and secret access key) section.
+4. Press Create New Access Key.
+5. Press Download Key File to download a CSV file that contains your new AccessKeyId and SecretKey. Keep this file somewhere where you can find it easily.
 
 Now, you can configure your AWS CLI with the credentials you just created and downloaded.
 
