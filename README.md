@@ -24,7 +24,7 @@ Verify that AWS CLI is installed correctly by running `aws --version`.
 
 * You should see something similar to `aws-cli/1.17.0 Python/3.7.4 Darwin/18.7.0 botocore/1.14.0`.
 
-# Configuring the AWS CLI
+#### Configuring the AWS CLI
 
 You need to retrieve AWS credentials that allow your AWS CLI to access AWS resources.
 
