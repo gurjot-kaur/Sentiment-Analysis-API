@@ -68,7 +68,7 @@ Install Docker Desktop. Use one of the links below to download the proper Docker
 
  ii. Restart your computer.
 
- iii.Excecute the following commands in terminal, as administrator.
+ iii.Excecute the following commands in terminal, as administrator.\
      ```
      REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /f /v EditionID /t REG_SZ /d "Professional"
      REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /f /v ProductName /t REG_SZ /d "Windows 10 Pro"
@@ -76,7 +76,7 @@ Install Docker Desktop. Use one of the links below to download the proper Docker
  iv. Follow this [link](https://docs.docker.com/docker-for-windows/install/) to install Docker.
  v.  Restart your computer, do not log out.
 
- vi. Excecute the following commands in terminal, as administrator.
+ vi. Excecute the following commands in terminal, as administrator.\
      ```
      REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v EditionID /t REG_SZ /d "Core"
      REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion" /v ProductName /t REG_SZ /d "Windows 10 Home"
@@ -93,8 +93,8 @@ Finally, in the Terminal window excecute `docker pull tensorflow/tensorflow:2.1.
 
 Follow the instructions for your operating system.
 
-For macOS, follow this [link](https://docs.anaconda.com/anaconda/install/mac-os/)
-For Windows, follow this [link](https://docs.anaconda.com/anaconda/install/windows/)
+* For macOS, follow this [link](https://docs.anaconda.com/anaconda/install/mac-os/)\
+* For Windows, follow this [link](https://docs.anaconda.com/anaconda/install/windows/)
 
 
 ### Install Sublime
