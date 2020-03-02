@@ -97,7 +97,7 @@ Finally, in the Terminal window excecute `docker pull tensorflow/tensorflow:2.1.
 
 Follow the instructions for your operating system.
 
-* For macOS, follow this [link](https://docs.anaconda.com/anaconda/install/mac-os/)\
+* For macOS, follow this [link](https://docs.anaconda.com/anaconda/install/mac-os/)
 * For Windows, follow this [link](https://docs.anaconda.com/anaconda/install/windows/)
 
 
