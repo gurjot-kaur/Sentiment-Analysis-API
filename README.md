@@ -60,9 +60,9 @@ Follow the instructions of your operating system:
 
 Install Docker Desktop. Use one of the links below to download the proper Docker application depending on your operating system. Create a DockerHub account if asked.
 
-For macOS, follow this [link](https://docs.docker.com/docker-for-mac/install/).
+* For macOS, follow this [link](https://docs.docker.com/docker-for-mac/install/).
 
-For Windows 10 64-bit Home, follow this [link](https://docs.docker.com/docker-for-windows/install/)
+* For Windows 10 64-bit Home, follow this [link](https://docs.docker.com/docker-for-windows/install/)
 
 Excecute the files "first.bat" and "second.bat" in order, as administrator.
 
