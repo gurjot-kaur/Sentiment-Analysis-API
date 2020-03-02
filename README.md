@@ -28,10 +28,10 @@ Configuring the AWS CLI
 You need to retrieve AWS credentials that allow your AWS CLI to access AWS resources.
 
 Sign into the AWS console.
-This simply requires that you sign in with the email and password you used to create your account. \
+This simply requires that you sign in with the email and password you used to create your account.\
 If you already have an AWS account, be sure to log in as the root user.
 
-Choose your account name in the navigation bar at the top right, and then choose My Security Credentials.
+Choose your account name in the navigation bar at the top right, and then choose My Security Credentials.\
 Expand the Access keys (access key ID and secret access key) section.\
 Press Create New Access Key.\
 Press Download Key File to download a CSV file that contains your new AccessKeyId and SecretKey. Keep this file somewhere where you can find it easily.\
@@ -42,7 +42,7 @@ In your Terminal, run aws configure.
 i. Enter your AWS Access Key ID from the file you downloaded.\
 ii. Enter the AWS Secret Access Key from the file.\
 iii. For Default region name, enter us-east-1.\
-iv. For Default output format, enter json.\
+iv. For Default output format, enter json.
 
 Run aws s3 ls in your Terminal.\
 If your AWS CLI is configured correctly, you should see nothing (because you do not have any existing AWS S3 buckets) or if you have created AWS S3 buckets before, they will be listed in your Terminal window.
@@ -110,9 +110,9 @@ If you already have a prefered text editor, skip this step.
 ```
 pip install -U -r requirements.txt
 ```
-This command will instal all the required packages and update any older packages.\
+This command will instal all the required packages and update any older packages\
 
-2. Now that we have our enviornment set up, we will create an S3 bucket.\
+2. Now that we have our enviornment set up, we will create an S3 bucket\
 
 Follow this [link](https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html) and create two buckets, an input bucket and a outbucket and configure them in the pipeline files.\
 
@@ -120,10 +120,10 @@ Follow this [link](https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABuck
 a. Run the Annotation Pipeline `testp.py` to get the labelled dataset\
 b. Run the Training Pipeline `training_pipeline.py` to get the trained model\
 c. Start the micro service by running the docker `MicroSerivce`\ 
-d. Run the Inference Pipeline `inference_pipeline.py` to get the final output.\
+d. Run the Inference Pipeline `inference_pipeline.py` to get the final output\
 
-4. At the end you should get a csv file with sentence and a sentiment, which will look like this:\ 
+4. At the end you should get a csv file with sentence and a sentiment, which will look like this:
 
 ![alt text](https://github.com/siddhant07/CaseStudy2/blob/master/Images/Final_outout.png)
 
-5. Celebrate with drinks, but only soft drinks, remember kids, alcohol kills brain cells.\
+5. Celebrate with drinks, but only soft drinks, remember kids, alcohol kills brain cells
