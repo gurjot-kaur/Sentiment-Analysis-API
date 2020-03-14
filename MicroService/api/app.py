@@ -1,8 +1,3 @@
-"""
-This flask app uses Blueprint which helps write a modular app.
-
-https://flask.palletsprojects.com/en/1.1.x/blueprints/#blueprints
-"""
 import logging
 
 from flask import Flask
