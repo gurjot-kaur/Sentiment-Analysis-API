@@ -9,7 +9,7 @@ We then dockerize the said API.
 
 2. Run `docker images` & find the image id of the newly built Docker image
 
-3. `docker run -it --rm -p 5000:5000 {image_id} /bin/bash ml_deploy_demo/run.sh` -- this refers to the image we built to run a Docker container
+3. `docker run -it --rm -p 5000:5000 {image_id} /bin/bash MicroService/run.sh` -- this refers to the image we built to run a Docker container
 
 If everything worked properly, you should now have a container running, which:
 
