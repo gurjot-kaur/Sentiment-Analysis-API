@@ -129,6 +129,6 @@ d. Run the Inference Pipeline `inference_pipeline.py` to get the final output
 
 ![alt text](https://github.com/siddhant07/CaseStudy2/blob/master/Images/Final_outout.png)
 
-5. Celebrate with drinks, but only soft drinks, remember kids, alcohol kills brain cells
+
 
 [CodeLab](https://codelabs-preview.appspot.com/?file_id=1Vhpii6GdfNOJLhpKM83GkSp4ZmjXBKqM5VTqwepPeQw#1)
