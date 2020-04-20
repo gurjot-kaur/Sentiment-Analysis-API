@@ -1,4 +1,5 @@
-# Case Study 2
+# Sentiment Analysis Pipeline in Metaflow serviced by Flask API
+
 
 ## Install instructions
 
